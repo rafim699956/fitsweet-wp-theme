@@ -39,3 +39,7 @@
 [08-Mar-2025 06:14:13] NOTICE: ready to handle connections
 [09-Mar-2025 09:11:08] NOTICE: fpm is running, pid 3704
 [09-Mar-2025 09:11:08] NOTICE: ready to handle connections
+[09-Mar-2025 13:11:46] NOTICE: Terminating ...
+[09-Mar-2025 13:11:46] NOTICE: exiting, bye-bye!
+[09-Mar-2025 15:54:50] NOTICE: fpm is running, pid 5024
+[09-Mar-2025 15:54:50] NOTICE: ready to handle connections
