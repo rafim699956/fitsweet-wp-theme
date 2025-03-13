@@ -49,3 +49,26 @@
 [06-Mar-2025 00:24:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
 [06-Mar-2025 00:24:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
 [08-Mar-2025 00:28:53 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 12
+[12-Mar-2025 08:54:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/functions.php on line 47 and exactly 2 expected in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/functions.php(47): register_nav_menu(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-settings.php(672): include('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-config.php(103): require_once('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-load.php(50): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(13): require_once('/home/hasan/Loc...')
+#5 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#6 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/nav-menu.php on line 136
+[12-Mar-2025 08:54:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/functions.php on line 47 and exactly 2 expected in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/functions.php(47): register_nav_menu(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-settings.php(672): include('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-config.php(103): require_once('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-load.php(50): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(13): require_once('/home/hasan/Loc...')
+#5 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#6 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/nav-menu.php on line 136
+[12-Mar-2025 08:54:40 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/functions.php on line 48
+[12-Mar-2025 08:54:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[12-Mar-2025 08:54:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
