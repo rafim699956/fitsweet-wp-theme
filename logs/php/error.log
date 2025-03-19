@@ -74,3 +74,4 @@ Stack trace:
 [12-Mar-2025 08:54:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
 [18-Mar-2025 05:48:54 UTC] PHP Warning:  Attempt to read property "title" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-customize-widgets.php on line 923
 [18-Mar-2025 05:49:21 UTC] PHP Warning:  Attempt to read property "title" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[19-Mar-2025 04:37:24 UTC] PHP Warning:  Attempt to read property "title" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-customize-widgets.php on line 923
