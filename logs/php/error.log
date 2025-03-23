@@ -85,3 +85,116 @@ Stack trace:
 [19-Mar-2025 09:46:24 UTC] PHP Warning:  Attempt to read property "title" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/class-wp-customize-widgets.php on line 923
 [22-Mar-2025 10:31:50 UTC] PHP Parse error:  syntax error, unexpected token "endwhile", expecting "elseif" or "else" or "endif" in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 147
 [22-Mar-2025 10:32:15 UTC] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 124
+[23-Mar-2025 10:29:26 UTC] PHP Warning:  Undefined variable $category_image in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 238
+[23-Mar-2025 10:29:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 238
+[23-Mar-2025 10:29:26 UTC] PHP Warning:  Undefined variable $category_id in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:29:26 UTC] PHP Warning:  Undefined variable $category_id in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:29:26 UTC] PHP Warning:  Undefined variable $category_id in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:29:26 UTC] PHP Warning:  Undefined variable $category_id in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:45:26 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:241
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:46:40 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:241
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:46:52 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:241
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:46:58 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:241
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 241
+[23-Mar-2025 10:48:16 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php(4467): ltrim(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(250): esc_url(Array)
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#5 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php on line 4467
+[23-Mar-2025 10:48:26 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php(4467): ltrim(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(250): esc_url(Array)
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#5 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php on line 4467
+[23-Mar-2025 10:48:37 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php(4467): ltrim(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(250): esc_url(Array)
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#5 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php on line 4467
+[23-Mar-2025 10:49:24 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php(4467): ltrim(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(250): esc_url(Array)
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#5 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php on line 4467
+[23-Mar-2025 10:49:28 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php(4467): ltrim(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(250): esc_url(Array)
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#5 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php on line 4467
+[23-Mar-2025 10:49:35 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php(4467): ltrim(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(250): esc_url(Array)
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#5 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php on line 4467
+[23-Mar-2025 10:49:39 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php(4467): ltrim(Array)
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(250): esc_url(Array)
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#4 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#5 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/formatting.php on line 4467
+[23-Mar-2025 10:50:24 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:50:24 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:50:54 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:50:54 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:50:57 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:50:57 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:50:58 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:50:58 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:51:09 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:51:09 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:51:10 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:51:10 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:51:11 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:51:11 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:52:29 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[23-Mar-2025 10:52:29 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
