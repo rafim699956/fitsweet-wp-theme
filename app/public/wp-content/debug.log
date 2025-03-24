@@ -1,0 +1,63 @@
+[24-Mar-2025 06:30:46 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:258
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 258
+[24-Mar-2025 06:32:48 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:258
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 258
+[24-Mar-2025 06:33:36 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:263
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 263
+[24-Mar-2025 06:33:59 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:262
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 262
+[24-Mar-2025 06:36:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:262
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 262
+[24-Mar-2025 09:50:26 UTC] Automatic updates starting...
+[24-Mar-2025 09:50:28 UTC]   Automatic theme updates starting...
+[24-Mar-2025 09:50:28 UTC]   Automatic theme updates complete.
+[24-Mar-2025 09:50:28 UTC] Automatic updates complete.
+[24-Mar-2025 10:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php:122
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php on line 122
+[24-Mar-2025 11:33:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php on line 126 and at least 1 expected in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/post.php:2615
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php(126): get_post_meta()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#4 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/post.php on line 2615
+[24-Mar-2025 11:38:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alt_recovery_by_media() in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php:126
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php on line 126
+[24-Mar-2025 11:52:49 UTC] PHP Warning:  Array to string conversion in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php on line 128
+[24-Mar-2025 11:52:49 UTC] PHP Warning:  Array to string conversion in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/index.php on line 128

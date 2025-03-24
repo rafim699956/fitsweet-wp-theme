@@ -49,16 +49,15 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',          'sjEG;g4$T%M~y@YRF-cf%w,,gmA5IATdv-/Mh_k{[W,*YFa$ t^/^C,{a6?[{>bx' );
-define( 'SECURE_AUTH_KEY',   'J+G;n-zP<#.vfv9)2`,R!ilrWcc#U~[q8k-d93`NWp#QA(wPxu^UYo_h!5F#nqEd' );
-define( 'LOGGED_IN_KEY',     'STW)Le!{c$wO*V.Qr=kO2%PDf0!%wT[Mg{=++F;0@X?hSl~(<ZTrwoY[}1-9h5!5' );
-define( 'NONCE_KEY',         '`E0:W_!Qrj3B<R*i#420Q%!&41#[N5t%YT)M[`HcE;U-E7]|Gco%f<WNy~ji_S+7' );
-define( 'AUTH_SALT',         '_kAuY{u_{7Jhl8Kab2fu(u~I8&^sMU!]ZQu8WONhw<lC9Umuq-?&aM>hgFDEs41Q' );
-define( 'SECURE_AUTH_SALT',  '5ypA[Y,F}9aQm([j>wAA-qM/DcVwt_isL.5*@ `OjXz/@lOvU3p1ax}Yc(6y&n,0' );
-define( 'LOGGED_IN_SALT',    'sf-p{EG~+q6z(%CCcEi*..GVhF@WmK<|Q~* {y_BSV+7|!!iaIY|+@rHM_kR/=eP' );
-define( 'NONCE_SALT',        '$C#qs%Qq0yqgk3@T0D5EMzyt%*7@[BCg-aa^$yJD;.CCV$nH*@=*/ 24M6jo(#p:' );
+define( 'AUTH_KEY', 'sjEG;g4$T%M~y@YRF-cf%w,,gmA5IATdv-/Mh_k{[W,*YFa$ t^/^C,{a6?[{>bx' );
+define( 'SECURE_AUTH_KEY', 'J+G;n-zP<#.vfv9)2`,R!ilrWcc#U~[q8k-d93`NWp#QA(wPxu^UYo_h!5F#nqEd' );
+define( 'LOGGED_IN_KEY', 'STW)Le!{c$wO*V.Qr=kO2%PDf0!%wT[Mg{=++F;0@X?hSl~(<ZTrwoY[}1-9h5!5' );
+define( 'NONCE_KEY', '`E0:W_!Qrj3B<R*i#420Q%!&41#[N5t%YT)M[`HcE;U-E7]|Gco%f<WNy~ji_S+7' );
+define( 'AUTH_SALT', '_kAuY{u_{7Jhl8Kab2fu(u~I8&^sMU!]ZQu8WONhw<lC9Umuq-?&aM>hgFDEs41Q' );
+define( 'SECURE_AUTH_SALT', '5ypA[Y,F}9aQm([j>wAA-qM/DcVwt_isL.5*@ `OjXz/@lOvU3p1ax}Yc(6y&n,0' );
+define( 'LOGGED_IN_SALT', 'sf-p{EG~+q6z(%CCcEi*..GVhF@WmK<|Q~* {y_BSV+7|!!iaIY|+@rHM_kR/=eP' );
+define( 'NONCE_SALT', '$C#qs%Qq0yqgk3@T0D5EMzyt%*7@[BCg-aa^$yJD;.CCV$nH*@=*/ 24M6jo(#p:' );
 define( 'WP_CACHE_KEY_SALT', '/?CSIZs1d>rM@Q,d{NJj4q4AL+37L+HGL`fnel;O dQ^@VEBN?qQT0s]v1O(*Z2$' );
-
 
 /**#@-*/
 
@@ -70,10 +69,7 @@ define( 'WP_CACHE_KEY_SALT', '/?CSIZs1d>rM@Q,d{NJj4q4AL+37L+HGL`fnel;O dQ^@VEBN?
  */
 $table_prefix = 'wp_';
 
-
 /* Add any custom values between this line and the "stop editing" line. */
-
-
 
 /**
  * For developers: WordPress debugging mode.
@@ -87,16 +83,24 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', false );
-}
+
+// if ( ! defined( 'WP_DEBUG' ) ) {
+
+//     define( 'WP_DEBUG', false );
+// }
+
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+// Disable display of errors and warnings
+define( 'WP_DEBUG_DISPLAY', true );
 
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+if ( !defined( 'ABSPATH' ) ) {
+    define( 'ABSPATH', __DIR__ . '/' );
 }
 
 /** Sets up WordPress vars and included files. */

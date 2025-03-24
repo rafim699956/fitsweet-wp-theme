@@ -198,3 +198,48 @@ Stack trace:
 [23-Mar-2025 10:51:11 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
 [23-Mar-2025 10:52:29 UTC] PHP Warning:  Undefined variable $category in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
 [23-Mar-2025 10:52:29 UTC] PHP Warning:  Attempt to read property "term_id" on null in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 232
+[24-Mar-2025 03:54:32 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:243
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 243
+[24-Mar-2025 03:56:05 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:244
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 244
+[24-Mar-2025 03:56:07 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:244
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 244
+[24-Mar-2025 04:48:25 UTC] PHP Parse error:  syntax error, unexpected token "?" in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 250
+[24-Mar-2025 06:12:37 UTC] PHP Fatal error:  Uncaught TypeError: printf(): Argument #1 ($format) must be of type string, WP_Term given in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:251
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php(251): printf(Object(WP_Term))
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#3 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#4 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 251
+[24-Mar-2025 06:27:12 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:258
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 258
+[24-Mar-2025 06:29:02 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php:258
+Stack trace:
+#0 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-blog-header.php(19): require_once('/home/hasan/Loc...')
+#2 /home/hasan/Local Sites/finsweetblogwebsite/app/public/index.php(17): require('/home/hasan/Loc...')
+#3 {main}
+  thrown in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-content/themes/finsweetblogsite/homepage.php on line 258
+[24-Mar-2025 06:31:52 UTC] PHP Warning:  Constant WP_DEBUG already defined in /home/hasan/Local Sites/finsweetblogwebsite/app/public/wp-config.php on line 94
